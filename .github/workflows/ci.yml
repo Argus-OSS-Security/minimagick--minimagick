@@ -1,11 +1,12 @@
 name: CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ '**' ]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches: [ master ]
+#   pull_request:
+#     branches: [ '**' ]
+# 
 permissions:
   contents: read
 
